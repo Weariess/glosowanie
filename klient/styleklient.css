@@ -1,0 +1,59 @@
+body{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 100vh;
+    grid-template-areas: 
+    "lewo karta prawo";
+}
+
+#karta{
+    grid-area: karta;
+
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    align-self: center;
+    display: flex;
+    flex-flow: column;
+    flex-direction: column;
+    
+
+
+}
+#karta2{
+    height: 800px;
+    width: 690px;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: 
+    "kandydaci przyciski"
+    "wpis wpis";
+    gap: 5px;
+}
+#kandydaci{
+    grid-area: kandydaci;
+    background-color: aliceblue;
+}
+#przyciski{
+    grid-area: przyciski;
+    background-color: aquamarine;
+}
+#wpis{
+    grid-area: wpis;
+    background-color: pink;
+}
+
+
+
+
+
+
+
+
+#lewo{
+    grid-area: lewo;
+}
+#prawo{
+    grid-area: prawo;
+}

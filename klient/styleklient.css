@@ -11,7 +11,6 @@ body{
 
     align-items: center;
     align-content: center;
-    text-align: center;
     align-self: center;
     display: flex;
     flex-flow: column;
@@ -34,16 +33,40 @@ body{
 #kandydaci{
     grid-area: kandydaci;
     background-color: aliceblue;
+    text-align: left;
+    font-size: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: start;
 }
 #przyciski{
     grid-area: przyciski;
     background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: end;
+    
 }
+
 #wpis{
     grid-area: wpis;
     background-color: pink;
 }
 
+#uno{
+    width: 50px;
+    height: 50px;
+}
+#dos{
+    width: 50px;
+    height: 50px;
+}
+#tres{
+    width: 50px;
+    height: 50px;
+}
 
 
 
